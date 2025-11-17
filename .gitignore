@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data (do NOT track)
+data/raw/
+data/processed/
+*.csv
+*.pt
+*.pkl
+*.npy
+*.npz
+*.hdf5
+
+# Model weights
+*.pth
+*.pt
+
+# Logs
+logs/
+runs/
+tensorboard/
+
+# macOS crap
+.DS_Store
